@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Oct 25 22:54:35 2021
+# Process ID: 719089
+# Current directory: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1
+# Command line: vivado -log system_rst_ps7_0_102M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_rst_ps7_0_102M_0.tcl
+# Log file: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/system_rst_ps7_0_102M_0.vds
+# Journal file: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_rst_ps7_0_102M_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 2368.414 ; gain = 0.023 ; free physical = 2503 ; free virtual = 3646
+Command: synth_design -top system_rst_ps7_0_102M_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 721780
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:37 . Memory (MB): peak = 2368.523 ; gain = 0.000 ; free physical = 120 ; free virtual = 537
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_rst_ps7_0_102M_0' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/synth/system_rst_ps7_0_102M_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/synth/system_rst_ps7_0_102M_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+INFO: [Synth 8-3491] module 'SRL16' declared at '/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
+	Parameter INIT bound to: 16'b0000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (1#1) [/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
