@@ -1,0 +1,316 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 26 09:52:42 2021
+# Process ID: 239876
+# Current directory: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1
+# Command line: vivado -log system_rst_ps7_0_102M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_rst_ps7_0_102M_0.tcl
+# Log file: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/system_rst_ps7_0_102M_0.vds
+# Journal file: /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_rst_ps7_0_102M_0.tcl -notrace
+Command: synth_design -top system_rst_ps7_0_102M_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 241032
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:32 . Memory (MB): peak = 2307.789 ; gain = 23.797 ; free physical = 120 ; free virtual = 1716
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_rst_ps7_0_102M_0' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/synth/system_rst_ps7_0_102M_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/synth/system_rst_ps7_0_102M_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+INFO: [Synth 8-3491] module 'SRL16' declared at '/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
+	Parameter INIT bound to: 16'b0000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (1#1) [/home/erickof/XilinxVitis/Vivado/2020.2/scripts/rt/data/unisim_comp.v:78018]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (3#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+	Parameter C_SIZE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (4#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'system_rst_ps7_0_102M_0' (7#1) [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/synth/system_rst_ps7_0_102M_0.vhd:74]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:44 . Memory (MB): peak = 2352.695 ; gain = 68.703 ; free physical = 432 ; free virtual = 1723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:48 . Memory (MB): peak = 2367.539 ; gain = 83.547 ; free physical = 490 ; free virtual = 1797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:48 . Memory (MB): peak = 2367.539 ; gain = 83.547 ; free physical = 490 ; free virtual = 1797
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.57 . Memory (MB): peak = 2378.445 ; gain = 0.000 ; free physical = 389 ; free virtual = 1726
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0_ooc.xdc] for cell 'U0'
+create_clock: Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:06 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 130 ; free virtual = 1067
+Finished Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.gen/sources_1/bd/system/ip/system_rst_ps7_0_102M_0/system_rst_ps7_0_102M_0.xdc] for cell 'U0'
+Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 129 ; free virtual = 1064
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDR => FDRE: 12 instances
+  SRL16 => SRL16E: 1 instance 
+
+write_xdc: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:07 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 289 ; free virtual = 1072
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:08 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 261 ; free virtual = 1044
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:04:09 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3883 ; free virtual = 4345
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:04:12 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3870 ; free virtual = 4342
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:04:13 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3867 ; free virtual = 4342
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:04:21 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3771 ; free virtual = 4277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:04:38 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3722 ; free virtual = 4278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:04:54 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3286 ; free virtual = 3918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:04:54 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3186 ; free virtual = 3818
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:04:54 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3130 ; free virtual = 3763
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:04:56 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:04:56 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3109 ; free virtual = 3749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3108 ; free virtual = 3749
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:03:56 . Memory (MB): peak = 2532.289 ; gain = 83.547 ; free physical = 3223 ; free virtual = 3865
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:04:57 . Memory (MB): peak = 2532.289 ; gain = 248.297 ; free physical = 3264 ; free virtual = 3922
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 3203 ; free virtual = 3900
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.289 ; gain = 0.000 ; free physical = 2780 ; free virtual = 3599
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  FDR => FDRE: 8 instances
+  SRL16 => SRL16E: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:05:47 . Memory (MB): peak = 2532.289 ; gain = 248.406 ; free physical = 3028 ; free virtual = 3858
+INFO: [Common 17-1381] The checkpoint '/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/system_rst_ps7_0_102M_0.dcp' has been generated.
+write_verilog: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:05 . Memory (MB): peak = 2564.305 ; gain = 0.000 ; free physical = 3206 ; free virtual = 4097
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_rst_ps7_0_102M_0, cache-ID = 640ac0d18e32b2e0
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/my-system.runs/system_rst_ps7_0_102M_0_synth_1/system_rst_ps7_0_102M_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_rst_ps7_0_102M_0_utilization_synth.rpt -pb system_rst_ps7_0_102M_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 26 09:59:53 2021...
