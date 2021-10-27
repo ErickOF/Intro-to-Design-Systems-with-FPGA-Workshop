@@ -1,0 +1,13 @@
+20:03:49 INFO  : Launching XSCT server: xsct -n  -interactive /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/temp_xsdb_launch_script.tcl
+20:03:50 INFO  : Registering command handlers for Vitis TCF services
+20:04:08 INFO  : XSCT server has started successfully.
+20:04:14 INFO  : Platform repository initialization has completed.
+20:04:39 INFO  : Successfully done setting XSCT server connection channel  
+20:04:39 INFO  : plnx-install-location is set to ''
+20:04:39 INFO  : Successfully done query RDI_DATADIR 
+20:04:39 INFO  : Successfully done setting workspace for the tool. 
+20:14:26 INFO  : Result from executing command 'getProjects': system_wrapper
+20:14:26 INFO  : Result from executing command 'getPlatforms': 
+20:14:26 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:14:26 INFO  : Platform 'system_wrapper' is added to custom repositories.
+20:14:42 INFO  : Platform 'system_wrapper' is added to custom repositories.

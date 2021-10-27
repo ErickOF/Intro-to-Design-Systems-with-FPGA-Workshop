@@ -1,0 +1,1426 @@
+TRACE::2021-10-26.20:14:05::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:05::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:05::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:07::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:07::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:07::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:07::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-10-26.20:14:09::SCWPlatform::Opened new HwDB with name system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-10-26.20:14:09::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper"
+		}]
+}
+TRACE::2021-10-26.20:14:09::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-10-26.20:14:09::SCWDomain::checking for install qemu data   : 
+TRACE::2021-10-26.20:14:09::SCWDomain:: Using the QEMU Data from install at  : /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2021-10-26.20:14:09::SCWDomain:: Using the QEMU args  from install at  : /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:09::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2021-10-26.20:14:09::SCWPlatform::Generating the sources  .
+TRACE::2021-10-26.20:14:09::SCWBDomain::Generating boot domain sources.
+TRACE::2021-10-26.20:14:09::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:09::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:09::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-10-26.20:14:09::SCWMssOS::No sw design opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::mss does not exists at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::Creating sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::Adding the swdes entry, created swdb /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::updating the scw layer changes to swdes at   /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::Writing mss at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:09::SCWMssOS::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2021-10-26.20:14:09::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-10-26.20:14:09::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-10-26.20:14:09::SCWBDomain::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2021-10-26.20:14:25::SCWPlatform::Generating sources Done.
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2021-10-26.20:14:25::SCWMssOS::Could not open the swdb for /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2021-10-26.20:14:25::SCWMssOS::Could not open the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-10-26.20:14:25::SCWMssOS::No sw design opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::mss exists loading the mss file  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Opened the sw design from mss  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Adding the swdes entry /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2021-10-26.20:14:25::SCWMssOS::updating the scw layer about changes
+TRACE::2021-10-26.20:14:25::SCWMssOS::Opened the sw design.  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:25::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-10-26.20:14:25::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:25::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-10-26.20:14:25::SCWDomain::checking for install qemu data   : 
+TRACE::2021-10-26.20:14:25::SCWDomain:: Using the QEMU Data from install at  : /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2021-10-26.20:14:25::SCWDomain:: Using the QEMU args  from install at  : /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:25::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:25::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:25::SCWMssOS::No sw design opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::mss does not exists at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Creating sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Adding the swdes entry, created swdb /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::updating the scw layer changes to swdes at   /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Writing mss at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:25::SCWMssOS::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-10-26.20:14:25::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-10-26.20:14:25::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-10-26.20:14:25::SCWMssOS::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-10-26.20:14:25::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-10-26.20:14:26::SCWMssOS::Could not open the swdb for /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+KEYINFO::2021-10-26.20:14:26::SCWMssOS::Could not open the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss is not found
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-10-26.20:14:26::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2021-10-26.20:14:26::SCWMssOS::Writing the mss file completed /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-10-26.20:14:26::SCWPlatform::Started generating the artifacts platform system_wrapper
+TRACE::2021-10-26.20:14:26::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-10-26.20:14:26::SCWPlatform::Started generating the artifacts for system configuration system_wrapper
+LOG::2021-10-26.20:14:26::SCWSystem::Checking the domain zynq_fsbl
+LOG::2021-10-26.20:14:26::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2021-10-26.20:14:26::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2021-10-26.20:14:26::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2021-10-26.20:14:26::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2021-10-26.20:14:26::SCWSystem::Not a boot domain 
+LOG::2021-10-26.20:14:26::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2021-10-26.20:14:26::SCWDomain::Generating domain artifcats
+TRACE::2021-10-26.20:14:26::SCWMssOS::Generating standalone artifcats
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying the qemu file from  /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/qemu/
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying the qemu file from  /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-10-26.20:14:26::SCWMssOS::Mss edits present, copying mssfile into export location /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-10-26.20:14:26::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-10-26.20:14:26::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2021-10-26.20:14:26::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying to export directory.
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-10-26.20:14:26::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2021-10-26.20:14:26::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2021-10-26.20:14:26::SCWSystem::Completed Processing the sysconfig system_wrapper
+LOG::2021-10-26.20:14:26::SCWPlatform::Completed generating the artifacts for system configuration system_wrapper
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started preparing the platform 
+TRACE::2021-10-26.20:14:26::SCWSystem::Writing the bif file for system config system_wrapper
+TRACE::2021-10-26.20:14:26::SCWSystem::dir created 
+TRACE::2021-10-26.20:14:26::SCWSystem::Writing the bif 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started writing the spfm file 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Completed generating the platform
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-10-26.20:14:26::SCWPlatform::updated the xpfm file.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-10-26.20:14:26::SCWPlatform::Started generating the artifacts platform system_wrapper
+TRACE::2021-10-26.20:14:26::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-10-26.20:14:26::SCWPlatform::Started generating the artifacts for system configuration system_wrapper
+LOG::2021-10-26.20:14:26::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2021-10-26.20:14:26::SCWDomain::Generating domain artifcats
+TRACE::2021-10-26.20:14:26::SCWMssOS::Generating standalone artifcats
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying the qemu file from  /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/qemu/
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying the qemu file from  /home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writing the mss file at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-10-26.20:14:26::SCWMssOS::Mss edits present, copying mssfile into export location /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-10-26.20:14:26::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-10-26.20:14:26::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2021-10-26.20:14:26::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-10-26.20:14:26::SCWMssOS::Copying to export directory.
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-10-26.20:14:26::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2021-10-26.20:14:26::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2021-10-26.20:14:26::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2021-10-26.20:14:26::SCWSystem::Completed Processing the sysconfig system_wrapper
+LOG::2021-10-26.20:14:26::SCWPlatform::Completed generating the artifacts for system configuration system_wrapper
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started preparing the platform 
+TRACE::2021-10-26.20:14:26::SCWSystem::Writing the bif file for system config system_wrapper
+TRACE::2021-10-26.20:14:26::SCWSystem::dir created 
+TRACE::2021-10-26.20:14:26::SCWSystem::Writing the bif 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started writing the spfm file 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-10-26.20:14:26::SCWPlatform::Completed generating the platform
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Saving the mss changes /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-10-26.20:14:26::SCWMssOS::Commit changes completed.
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to open the hw design at /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA given /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA absoulate path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform::DSA directory /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Platform Path /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/hw/system_wrapper.xsa
+TRACE::2021-10-26.20:14:26::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2021-10-26.20:14:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-10-26.20:14:26::SCWMssOS::Checking the sw design at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWMssOS::DEBUG:  swdes dump  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-10-26.20:14:26::SCWMssOS::Sw design exists and opened at  /home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-10-26.20:14:26::SCWWriter::formatted JSON is {
+	"platformName":	"system_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"system_wrapper",
+	"platHandOff":	"/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/my-system/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"system_wrapper",
+	"systems":	[{
+			"systemName":	"system_wrapper",
+			"systemDesc":	"system_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"system_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/home/erickof/XilinxVitis/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-10-26.20:14:26::SCWPlatform::updated the xpfm file.
