@@ -19,3 +19,4 @@ platform active {system_wrapper}
 domain active {zynq_fsbl}
 domain active {standalone_ps7_cortexa9_0}
 platform generate -quick
+platform generate

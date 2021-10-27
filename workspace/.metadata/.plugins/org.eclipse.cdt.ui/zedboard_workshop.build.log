@@ -1,0 +1,30 @@
+21:25:44 **** Build of configuration Debug for project zedboard_workshop ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: zedboard_workshop.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/erickof/Documentos/Git/Intro-to-Design-Systems-with-FPGA-Workshop/workspace/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "zedboard_workshop.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: zedboard_workshop.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size zedboard_workshop.elf  |tee "zedboard_workshop.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23516	   1176	  22584	  47276	   b8ac	zedboard_workshop.elf
+Finished building: zedboard_workshop.elf.size
+ 
+
+21:25:45 Build Finished (took 997ms)
+

@@ -2,3 +2,9 @@ timestamp=[2021-10-26 20:03:43], mode=WORKBENCH_START, duration=0:00:25.189, dur
 timestamp=[2021-10-26 20:03:47], mode=WORKBENCH_UI_INIT, duration=0:00:03.780, duration_ms=3780, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
 timestamp=[2021-10-26 20:04:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:25.643, duration_ms=25643, data={}
 timestamp=[2021-10-26 20:14:42], mode=APP_CREATION, duration=0:00:37.723, duration_ms=37723, data={name=zedboard_workshop, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2021-10-26 21:25:39], mode=PLATFORM_GENERATION, duration=0:00:36.254, duration_ms=36254, data={name=system_wrapper}
+timestamp=[2021-10-26 21:25:45], mode=BUILD, duration=0:00:01.210, duration_ms=1210, data={name=zedboard_workshop, configuration=Debug, clean_build=false}
+timestamp=[2021-10-26 21:35:39], mode=MISC, duration=0:00:05.510, duration_ms=5510, data={name=zedboard_workshop_system, type=bif_creation}
+timestamp=[2021-10-26 21:59:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.025, duration_ms=25, data={}
+timestamp=[2021-10-26 21:59:53], mode=WORKBENCH_START, duration=0:00:37.711, duration_ms=37711, data={}
+timestamp=[2021-10-26 21:59:56], mode=WORKBENCH_UI_INIT, duration=0:00:03.117, duration_ms=3117, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,system_wrapper,zedboard_workshop,zedboard_workshop_system}
